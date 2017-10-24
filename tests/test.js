@@ -72,17 +72,8 @@ describe("TestCases for methods in class BankAccount", () => {
 
 describe("test for method withdraw", () => {
 
-		it("should return invalid input check the amount you supplied as output for", () => {
-			let test = new BankAccount('er', 4000);
-			assert(test.withdraw(), 'invalid input, check the amount you supplied');
-		})
 
-		it("should return invalid input check the balance you supplied as output for", () => {
-			let test = new BankAccount(4000, 'er');
-			assert(test.withdraw(), 'invalid input, check the amount you supplied');
-		})
-
-		it("should return invalid input check the amount is grater than Zero", () => {
+		it("should return invalid input check the amount is less than Zero", () => {
 			let test = new BankAccount(-1, 4000);
 			assert(test.withdraw(), 'invalid input, check the amount you supplied is positive');
 		})
