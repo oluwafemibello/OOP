@@ -1,0 +1,25 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "oop banck transaction",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwafemibello/OOP.git"
+  },
+  "author": "oluwafemi bello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwafemibello/OOP/issues"
+  },
+  "homepage": "https://github.com/oluwafemibello/OOP#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
